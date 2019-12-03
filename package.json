@@ -27,5 +27,21 @@
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
     "hexo-wordcount": "^6.0.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "cz-conventional-changelog": "^3.0.2",
+    "husky": "^3.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $GIT_PARAMS"
+    }
   }
 }
