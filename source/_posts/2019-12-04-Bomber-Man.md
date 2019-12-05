@@ -31,9 +31,9 @@ date: 2019-12-04 09:29:15
 
 ### 设置分辨率 400x800
 
-从 `Project > Sprites` 中拖动 `BG` 到 `GamePlay` Scene。
-
 {% asset_img Resolution_400_800.png Resolution 400x800 %}
+
+从 `Project > Sprites` 中拖动 `BG` 到 `GamePlay` Scene。
 
 ### 添加背景
 

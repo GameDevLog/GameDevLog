@@ -22,7 +22,7 @@ copyright: true
 * File
     * Build Settings (Shift + Cmd + B)
 
-{% asset_img Build_Settings.png Build Settings %}
+![Build Settings](https://game.iosdevlog.com/2019/12/04/Bomber-Man/Build_Settings.png)
 
 * Player Settings
 
