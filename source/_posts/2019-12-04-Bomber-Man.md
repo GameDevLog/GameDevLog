@@ -11,7 +11,7 @@ date: 2019-12-04 09:29:15
 
 ## 游戏展示
 
-![Bomber Man](https://github.com/GameDevLog/GameDevLogTemplete/raw/master/ScreenShots/BomberMan.gif)
+![Bomber Man](https://github.com/GameDevLog/GameDevLogTemplete/raw/master/ScreenShots/1.BomberMan.gif)
 
 <!--more-->
 
@@ -194,8 +194,7 @@ public class PlayerScript : MonoBehaviour
 ### Spawner / 生成器
 
 * Hirearchy
-    * Create Empt
-        * Rename: `Spawner`
+    * Create Empty: `Spawner`
 * Inspector
     * Spawner
         * Select Icon （左上角)
@@ -251,8 +250,7 @@ public class SpawnerScript : MonoBehaviour
 ### Collector / 收集器
 
 * Hirearchy
-    * Create Empt
-        * Rename: `Collector`
+    * Create Empty: `Collector`
 * Inspector
     * Collector
         * Select Icon （左上角)

@@ -11,7 +11,7 @@ date: 2019-12-05 13:38:41
 
 ## 游戏展示
 
-![Guess The Number](https://raw.githubusercontent.com/GameDevLog/GameDevLogTemplete/master/ScreenShots/GuessTheNumber.gif)
+![Guess The Number](https://raw.githubusercontent.com/GameDevLog/GameDevLogTemplete/master/ScreenShots/2.GuessTheNumber.gif)
 
 <!--more-->
 
@@ -182,8 +182,7 @@ public class GuessTheNumberScript : MonoBehaviour
 ### GameController
 
 * Hirearchy
-    * Create Empty
-        * reanem: `GameController`
+    * Create Empty: `GameController`
 
 添加 `GuessTheNumberScript` 到 `GameController`
 
