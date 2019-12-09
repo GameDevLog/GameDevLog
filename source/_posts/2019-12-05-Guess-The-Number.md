@@ -212,4 +212,4 @@ Button
 
 ## GitHub 源码
 
-<https://github.com/GameDevLog/GameDevLog>
+GitHub: <https://github.com/GameDevLog/GameDevLogTemplete>

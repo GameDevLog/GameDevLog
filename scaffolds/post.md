@@ -28,6 +28,8 @@ copyright: true
 
 {% asset_img Player_Settings.png Player Settings  %}
 
+## 小结
+
 ## GitHub 源码
 
-<https://github.com/GameDevLog/GameDevLog>
+GitHub: <https://github.com/GameDevLog/GameDevLogTemplete>

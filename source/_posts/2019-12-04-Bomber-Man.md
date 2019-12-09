@@ -407,4 +407,4 @@ public class CollectorScript : MonoBehaviour
 
 ## GitHub
 
-<https://github.com/GameDevLog/GameDevLog>
+GitHub: <https://github.com/GameDevLog/GameDevLogTemplete>
