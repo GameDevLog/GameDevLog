@@ -210,6 +210,12 @@ Button
 
 {% asset_img Player_Settings.png Player Settings  %}
 
-## GitHub 源码
+## 下载
+
+### 游戏
+
+Release: <https://github.com/GameDevLog/GameDevLogTemplete/releases>
+
+### 源码
 
 GitHub: <https://github.com/GameDevLog/GameDevLogTemplete>

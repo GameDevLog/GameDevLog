@@ -30,6 +30,12 @@ copyright: true
 
 ## 小结
 
-## GitHub 源码
+## 下载
+
+### 游戏
+
+Release: <https://github.com/GameDevLog/GameDevLogTemplete/releases>
+
+### 源码
 
 GitHub: <https://github.com/GameDevLog/GameDevLogTemplete>

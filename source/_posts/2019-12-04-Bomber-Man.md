@@ -405,6 +405,12 @@ public class CollectorScript : MonoBehaviour
 * Player Settings 
 {% asset_img Player_Settings.png Player Settings  %}
 
-## GitHub
+## 下载
+
+### 游戏
+
+Release: <https://github.com/GameDevLog/GameDevLogTemplete/releases>
+
+### 源码
 
 GitHub: <https://github.com/GameDevLog/GameDevLogTemplete>
