@@ -531,11 +531,7 @@ cherry & gem: `16 px`
 
 创建 *Animator Controller*: **Eagle**， 拖动到 `Eagle`
 
-创建三种状态
-
-1. EagleIdle
-1. FrogJump
-1. FrogFall
+创建一种状态 `Eagle`
 
 * Prefabs
     * Player
