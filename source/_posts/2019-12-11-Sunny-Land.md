@@ -536,6 +536,145 @@ cherry & gem: `16 px`
 * Prefabs
     * Player
 
+### Audio / 音效
+
+* Audio Listener: 耳朵
+* Audio Source: 扬声器
+* Audio Clips: 音乐/声音
+
+#### Assets
+
+* Sound FX - Retro Pack
+* Casual Game BGM
+
+Player BGM / 背景音
+
+* Inspector
+    * Prefab
+        * Overrides
+            * Apply All # 每个 `Player Prefab` 都包含声音
+    * Audio Source
+        * Loop: `true`
+        * AudioClip: `BGM_01`
+<-
+* Project
+    * CasualGame
+        * BGM_01
+
+Enemy 消灭声音
+
+* Hierarchy
+    * Enemy
+        * Frog >
+* Inspector
+    * Audio Source Effects
+        * Play On Awake: `false`
+        * AudioClip: `hit_04`
+<-
+* Project
+    * Zero Rare
+        * Retro Source
+            * Hit
+                * hit_04
+
+{% asset_img Hit.png Hit %}
+ 
+其它声音
+
+* 跳
+* 收集
+* 。。。
+
+### Dialog / 对话框
+
+#### Assets / 字体
+
+Font: Free Pixel Font - Thaleah
+
+* Hierarchy
+    * Canves
+        * Panel: `Dialog`
+            * Text
+
+{% asset_img Dialog.png Dialog %}
+
+#### House
+
+* Inspector
+    * Box Collider 2D
+        * Edit Collider
+        * Is Trigger: `true`
+    * Enter Dialog(Script)
+        * Enter Dialog: `Dialog`
+
+{% asset_img House.png House %}
+
+#### Dialog Animation
+
+* Project
+    * Animation
+        * Dialog
+            * Animation: `Dialog`
+
+拖动到 UI `Dialog` 上，自动生成 `EnterDialog` Animator
+
+{% asset_img Dialog_Animation.png Dialog Animation %}
+
+### Crouch / 下蹲
+
+* Edit
+    * Project Settings...
+        * Input
+            * Jump
+                * Duplicate Array Element: `Crouch`
+
+{% asset_img Porject_Settings.png Porject_Settings %}
+
+* Crouch
+    * Positive Button: `s`
+    * Alt Positive Button: `down`
+
+{% asset_img Crouch_Settings.png Crouch Settings %}
+
+* Project
+    * Assets
+        * Animation
+            * Player
+                * Animation: `Crouch`
+
+### DeadLine / 死亡
+
+* Hierarchy
+    * Empty Object: `DeadLine`
+* Inspector
+    * Tag: `DeadLine`
+    * Transform
+        * Position
+            * Y: `-8.3`
+    * Box Collider 2D
+        * Is Trigger: `True`
+
+{% asset_img DeadLine.png DeadLine %}
+
+### 光效
+
+* 素材的 Diffuse 材质 
+* 法线贴图 Normal map
+* 点光源，方向光源
+
+#### 安装 Package
+
+Lightweight RP
+
+* Level_2
+    * Grid
+        * Ground
+* Inspector
+    * Tilemap Renderer
+        * Material: `Default-Diffuse`
+
+变暗
+
 ## 导出游戏
 
 * File
@@ -551,6 +690,11 @@ cherry & gem: `16 px`
 
 UI 与 Game 用的是两套不同的坐标。
 
+参考:
+
+1. [Unity教程 入门第一款游戏制作](https://space.bilibili.com/370283072/channel/detail?cid=85776)
+1. [2D Movement in Unity (Tutorial)](https://www.youtube.com/watch?v=dwcT-Dch0bA)
+
 ## 下载
 
 ### 游戏
@@ -560,7 +704,3 @@ Release: <https://github.com/GameDevLog/GameDevLogTemplete/releases>
 ### 源码
 
 GitHub: <https://github.com/GameDevLog/GameDevLogTemplete>
-
-## 参考
-
-[Unity教程 入门第一款游戏制作](https://space.bilibili.com/370283072/channel/detail?cid=85776)

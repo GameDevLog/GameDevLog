@@ -1,12 +1,12 @@
 ---
-title: {{ title }}
-date: {{ date }}
+title: Free Platform Game Assets
 categories: Unity
 tags:
-    - Code
-    - Design
+  - Code
+  - Design
 comments: true
 copyright: true
+date: 2019-12-14 10:47:10
 ---
 
 ## 游戏展示
@@ -24,15 +24,15 @@ copyright: true
 
 ![Build Settings](https://game.iosdevlog.com/2019/12/04/Bomber-Man/Build_Settings.png)
 
-* Project Settings
+* Player Settings
 
-{% asset_img Project_Settings.png Project Settings  %}
+{% asset_img Player_Settings.png Player Settings  %}
 
 ## 小结
 
 参考：
 
-1. []()
+1. [Great Free 2D Assets ](https://assetstore.unity.com/lists/great-free-2d-assets-87803)
 
 ## 下载
 
@@ -43,5 +43,3 @@ Release: <https://github.com/GameDevLog/GameDevLogTemplete/releases>
 ### 源码
 
 GitHub: <https://github.com/GameDevLog/GameDevLogTemplete>
-
-找到游戏列表对应的 [GameDevLog](https://game.iosdevlog.com)
