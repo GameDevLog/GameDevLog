@@ -3,7 +3,7 @@ title: Guess The Number / 猜数字
 categories: Unity
 tags:
   - Code
-  - Design
+  - 3D
 comments: true
 copyright: true
 date: 2019-12-05 13:38:41
@@ -186,7 +186,7 @@ public class GuessTheNumberScript : MonoBehaviour
 
 添加 `GuessTheNumberScript` 到 `GameController`
 
-{% asset_img GameController.png Game Controller  %}
+{% asset_img GameController.png Game Controller %}
 
 ### On Click
 
@@ -197,7 +197,7 @@ Button
         * 添加: `GameController`
             * 选择： `GuessTheNumberScript.CheckGuess`
 
-{% asset_img OnClick.png Button On Click  %}
+{% asset_img OnClick.png Button On Click %}
 
 ## 导出游戏
 
@@ -208,7 +208,7 @@ Button
 
 * Player Settings 
 
-{% asset_img Player_Settings.png Player Settings  %}
+{% asset_img Player_Settings.png Player Settings %}
 
 ## 下载
 

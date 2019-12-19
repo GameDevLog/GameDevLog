@@ -4,6 +4,7 @@ categories: Unity
 tags:
   - Code
   - Design
+  - Assets
 comments: true
 copyright: true
 date: 2019-12-14 10:47:10
@@ -26,7 +27,7 @@ date: 2019-12-14 10:47:10
 
 * Player Settings
 
-{% asset_img Player_Settings.png Player Settings  %}
+{% asset_img Player_Settings.png Player Settings %}
 
 ## 小结
 

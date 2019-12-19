@@ -4,6 +4,7 @@ categories: Unity
 tags:
   - Code
   - Basic
+  - 3D
 comments: true
 copyright: true
 date: 2019-12-04 09:29:15
@@ -403,7 +404,7 @@ public class CollectorScript : MonoBehaviour
 {% asset_img Build_Settings.png Build Settings %}
 
 * Player Settings 
-{% asset_img Player_Settings.png Player Settings  %}
+{% asset_img Player_Settings.png Player Settings %}
 
 ## 下载
 

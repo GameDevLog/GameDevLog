@@ -4,6 +4,7 @@ categories: Unity
 tags:
   - Code
   - Design
+  - 3D
 comments: true
 copyright: true
 date: 2019-12-11 19:04:52
@@ -684,7 +685,7 @@ Lightweight RP
 
 * Player Settings
 
-{% asset_img Player_Settings.png Player Settings  %}
+{% asset_img Player_Settings.png Player Settings %}
 
 ## 小结
 

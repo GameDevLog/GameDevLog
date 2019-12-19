@@ -26,7 +26,7 @@ copyright: true
 
 * Project Settings
 
-{% asset_img Project_Settings.png Project Settings  %}
+{% asset_img Project_Settings.png Project Settings %}
 
 ## 小结
 
